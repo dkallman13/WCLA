@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+}
+
+.Head{
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  align-items: center;
+  height: 5%;
+  width: 100%;
+  margin: 0 auto;
+}
+.leftheadgroup{
+  flex: 2 2;
+  padding: 0;
+  height: 100%;
+}
+.midheadgroup {
+  flex: 3 3;
+  padding: 0;
+  height: 100%;
+}
+.rightheadgroup {
+  flex: 5 5;
+  padding: 0;
+  height: 100%;
+}
