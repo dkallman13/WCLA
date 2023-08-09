@@ -4,8 +4,9 @@ import Head from './header'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
       <Head></Head>
-    </main>
+      <h2>welcome to my personal log webiste!</h2>
+    </div>
   )
 }

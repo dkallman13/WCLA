@@ -1,9 +1,8 @@
 .main {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
 }
 
 .Head{
@@ -11,22 +10,29 @@
   flex: auto;
   flex-direction: row;
   align-items: center;
-  height: 5%;
+  height: 2rem;
   width: 100%;
   margin: 0 auto;
+}
+.Head div {
+  padding-top: 0.5rem;
 }
 .leftheadgroup{
   flex: 2 2;
   padding: 0;
+  margin: 0 auto;
   height: 100%;
 }
+
 .midheadgroup {
   flex: 3 3;
   padding: 0;
   height: 100%;
+  margin: 0 auto;
 }
 .rightheadgroup {
   flex: 5 5;
   padding: 0;
   height: 100%;
+  margin: 0 auto;
 }
